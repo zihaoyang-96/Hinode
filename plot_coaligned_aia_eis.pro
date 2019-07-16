@@ -10,7 +10,7 @@
 ;
 ;#OUTPUT: coaligned image sequences
 ;
-;#AUTHOR: Zihao Yang, Peking Univerisity, July 11th, 2019, at UCL-MSSL.
+;#AUTHOR: Zihao Yang, Peking University, July 11th, 2019, at UCL-MSSL.
 
 
 pro plot_coaligned_aia_eis, aia_dir, eis_dir, wave=wave
