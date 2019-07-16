@@ -10,7 +10,7 @@
 ;#OUTPUT: level 1 fits files of XRT in a new directory '/l1/'
 ;
 ;
-;#AUTHOR: Zihao Yang, Peking Univerisity, July 12th, 2019, at UCL-MSSL.
+;#AUTHOR: Zihao Yang, Peking University, July 12th, 2019, at UCL-MSSL.
 
 
 pro xrt_prep_l1, dir_xrt
