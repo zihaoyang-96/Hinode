@@ -14,7 +14,7 @@
 ;           change the x and y pixel numbers and EIS observing time, i.e. solar_x[79], solar_y[303] and time[40]
 ;            to your own data parameters
 ;
-;#AUTHOR: Zihao Yang, Peking Univerisity, July 11th, 2019, at UCL-MSSL.
+;#AUTHOR: Zihao Yang, Peking University, July 11th, 2019, at UCL-MSSL.
 
 pro coalign_aia_eis, aia_cube, eis_dir, wave=wave
 
