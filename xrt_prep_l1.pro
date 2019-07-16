@@ -19,7 +19,7 @@ ff=file_search('./*XRT*.fits')
 n=n_elements(ff)
 
 read_xrt, ff, index0, data0
-xrt_prep, index0, data0, index1, data1, /despike_despot, coalign=2, /normalize,/float,/miss_map
+xrt_prep, index0, data0, index1, data1, /despike_despot, coalign=1, /normalize,/float,/miss_map ;set coalign=1 means the XRT images will be coaligned with AIA 335.
 xrt_jitter, index1, off
 data_ca=shift_img(data1, off)
 
